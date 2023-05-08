@@ -11,7 +11,7 @@ body {
     background: linear-gradient(to top, #668aed9b , 65%, #51578c9e);
 }
 
-.users, #formulario, .card {
+.users, .title-form, #formulario, .card {
     filter: drop-shadow(4px 4px 20px #354666);
 }
 
