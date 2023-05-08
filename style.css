@@ -1,0 +1,23 @@
+input[type="radio"][value="true"]:checked {
+    accent-color: green;
+
+}
+
+input[type="radio"][value="false"]:checked {
+    accent-color: rgb(216, 35, 35);
+}
+
+body {
+    background: linear-gradient(to top, #668aed9b , 65%, #51578c9e);
+}
+
+.users, #formulario, .card {
+    filter: drop-shadow(4px 4px 20px #354666);
+}
+
+@media (max-width: 1000px){
+    #container{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
